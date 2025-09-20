@@ -10,21 +10,21 @@ const Navbar = () => {
         <div className='bg-[#F40404] py-[30px]'>
             <Container>
 
-                <Flex className='justify-between items-center'>
+                <Flex className='sm:block md:justify-between items-center'>
 
                     <div>
                         <img src={logo} alt="#logo" />
                     </div>
 
-                    <Flex className='items-center'>
+                    <Flex className='md:items-center'>
 
-                        <Flex className='items-center space-x-[47px] font-primary font-semibold text-[16px] text-white list-none'>
+                        <Flex className='sm:block md:flex items-center md:space-x-[47px] font-primary font-semibold text-[16px] text-white list-none'>
                             <li>
                                 <a className='hover:text-green-500' href="">Home</a>
                             </li>
 
-                            <li className='hover:text-green-500'>
-                                <a href="">About</a>
+                            <li>
+                                <a className='hover:text-green-500' href="">About</a>
                             </li>
 
                             <li>
@@ -41,8 +41,8 @@ const Navbar = () => {
                             
                         </Flex>
                         
-                        <button className='ml-[72px] cursor-pointer py-[13px] px-[32px] border-2 text-white font-primary font-semibold text-[16px] hover:bg-blue-500  '>CONTACT</button>
                     </Flex>
+                        <button className='md:ml-[72px] cursor-pointer py-[13px] px-[32px] border-2 text-white font-primary font-semibold text-[16px] hover:bg-blue-500'>CONTACT</button>
                     
                 </Flex>
 
