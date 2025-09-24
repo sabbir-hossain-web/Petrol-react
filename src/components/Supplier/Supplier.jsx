@@ -8,13 +8,13 @@ const Supplier = () => {
 
             <Container>
 
-                <Flex className="items-center">
-                    <h2 className='font-primary font-bold text-[48px] w-[289px] leading-[72px]'>The biggest supplier on the country</h2>
+                <div className="sm:block md:flex items-center">
+                    <h2 className='sm: text-[22px] sm: px-5 sm: w-[350px] font-primary font-bold md:text-[48px] md:w-[289px] sm:leading-[10px] md:leading-[72px]'>The biggest supplier on the country</h2>
 
-                    <p className='w-[651px] font-primary font-medium text-[16px] text-[#6C6C6C] ml-[178px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</p>
+                    <p className='sm: w-[380px] md:w-[651px] font-primary font-medium text-[16px] text-[#6C6C6C] sm:ml-[0px]sm: px-[20px] sm: mb-[-50px] md:ml-[178px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</p>
 
 
-                </Flex>
+                </div>
 
             </Container>
 

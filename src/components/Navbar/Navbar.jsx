@@ -10,15 +10,15 @@ const Navbar = () => {
         <div className='bg-[#F40404] py-[30px]'>
             <Container>
 
-                <Flex className='sm:block md:justify-between items-center'>
+                <div className='sm:block md:flex justify-between items-center'>
 
                     <div>
-                        <img src={logo} alt="#logo" />
+                        <img src={logo} alt="#logo" className='sm: w-[150px] mb-[20px]'/>
                     </div>
 
-                    <Flex className='md:items-center'>
+                    <div className='flex items-center'>
 
-                        <Flex className='sm:block md:flex items-center md:space-x-[47px] font-primary font-semibold text-[16px] text-white list-none'>
+                        <div className='sm:block px-5 md:flex items-center md:space-x-[47px] font-primary font-semibold text-[16px] text-white list-none'>
                             <li>
                                 <a className='hover:text-green-500' href="">Home</a>
                             </li>
@@ -39,12 +39,12 @@ const Navbar = () => {
                                 <a className='hover:text-green-500' href="">Blog</a>
                             </li>
                             
-                        </Flex>
+                        </div>
                         
-                    </Flex>
-                        <button className='md:ml-[72px] cursor-pointer py-[13px] px-[32px] border-2 text-white font-primary font-semibold text-[16px] hover:bg-blue-500'>CONTACT</button>
+                    </div>
+                        <button className='sm: text-[12px] sm: px-[25px] sm: py-[15px]sm: mt-5 sm: ml-5 round-[20px] md:ml-[72px] cursor-pointer md:py-[13px] md:px-[32px] border-2 text-white font-primary font-semibold md:text-[16px] hover:bg-blue-500'>CONTACT</button>
                     
-                </Flex>
+                </div>
 
             </Container>
         </div>
