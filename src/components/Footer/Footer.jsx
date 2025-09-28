@@ -15,10 +15,10 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div className='py-[150px] bg-[#1F1F1F]'>
+    <div className='sm: px-5 sm: py-10 md:px-0 md:py-[150px] bg-[#1F1F1F] overflow-hidden'>
         <Container>
-            <Flex className="justify-between">
-                <div>
+            <div className="md:flex justify-between">
+                <div className='sm: w-[100%] md:w-[40%]'>
                     <img src={footerLogo} alt="" />
 
                     <Flex className="items-center mt-[33px]">
@@ -60,7 +60,7 @@ const Footer = () => {
                     </Flex>
 
                 </div>
-
+          <div className='flex justify-between sm: pt-5 sm: w-[100%] md:w-[60%]'>
                 <div>
                     <ul className='text-white'>
                         <li className='font-primary font-bold text-[16px]'>Company</li>
@@ -83,19 +83,19 @@ const Footer = () => {
 
                 <div>
                     <p className='font-primary font-bold text-[16px] text-white'>Certificate</p>
-                    <Flex className="mt-[27px]">
+                    <div className="md:flex mt-[27px]">
                         <div className='py-[5px] bg-white w-[110px] rounded-[4px]'>
                             <p className='font-primary font-bold text-[24px] text-[#008AD8] ml-[9px]'>ISO 88</p>
                             <p className='font-primary font-medium text-[8px] text-[#008AD8] ml-[9px]'>Environmentally Safe</p>
                         </div>
 
-                        <div className='p-[10px] bg-white w-[110px] rounded-[4px] ml-[5px]'>
+                        <div className='sm: mt-2 md:mt-0 p-[10px] bg-white w-[110px] rounded-[4px] md:ml-[5px]'>
                             <p className='font-primary font-bold text-[14px] mt-[5px] text-[#980077]'>Liquid <span className='text-[#009818]'>Green</span></p>
                         </div>
-                    </Flex>
+                    </div>
                 </div>
-            </Flex>
-
+            </div>
+            </div>
         </Container>
     </div>
   )

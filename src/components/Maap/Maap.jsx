@@ -4,12 +4,13 @@ import Container from "../Layouts/Container";
 
 const Maap = () => {
   return (
-    <Container>
+    <div className='w-auto overflow-hidden'>
+    
       <div>
       <img src={maap} alt="" />
      </div>
-    </Container>
-    
+
+    </div>
   )
 }
 

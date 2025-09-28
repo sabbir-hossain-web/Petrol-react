@@ -9,15 +9,15 @@ import logoFour from "../../assets/logoFour.png"
 
 const Logo = () => {
   return (
-    <div className='py-[117px]'>
+    <div className='sm: py-7 md:py-[117px] overflow-hidden'>
         <Container>
-            <Flex className="justify-between">
-                <img src={logoOne} alt="" />
-                <img src={logoTwo} alt="" />
-                <img src={logoThree} alt="" />
-                <img src={logoFour} alt="" />
+            <div className="md:flex justify-between">
+                <img src={logoOne} alt="" className='md:w-[20%] sm: w-[150px] sm: mx-auto' />
+                <img src={logoTwo} alt="" className='md:w-[20%] sm: w-[150px] sm: mx-auto' />
+                <img src={logoThree} alt="" className='md:w-[20%] sm: w-[150px] sm: mx-auto' />
+                <img src={logoFour} alt="" className='md:w-[20%] sm: w-[150px] sm: mx-auto' />
 
-            </Flex>
+            </div>
         </Container>
     </div>
   )

@@ -17,10 +17,9 @@ const ImageSlider = () => {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
-        speed: 2000,
     };
     return (
-        <div>
+        <div className='overflow-hidden'>
             <Slider {...settings}>
                 <img className='w-[24%] gap-x-[30px]' src={sliderOne} alt="" />
                 <img className='w-[24%] gap-x-[30px]' src={sliderTwo} alt="" />

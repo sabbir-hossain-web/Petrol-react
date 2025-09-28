@@ -3,7 +3,7 @@ import Container from '../Layouts/Container'
 
 const Banner = () => {
     return (
-        <div className='sm:py-[50px] z-1 relative bg-[url(./assets/banner.png)] bg-cover bg-center bg-no-repeat md:py-[257px]'>
+        <div className='sm:py-[50px] z-1 relative bg-[url(./assets/banner.png)] bg-cover bg-center bg-no-repeat md:py-[257px] overflow-hidden'>
 
             <div className='z-[-1] absolute top-0 left-0 w-full h-full bg-black/60'> </div>
 

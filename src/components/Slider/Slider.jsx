@@ -9,7 +9,7 @@ import Flex from '../Layouts/Flex'
 
 const Slider = () => {
     return (
-        <div>
+        <div className='overflow-hidden'>
             <Flex className="justify-between">
                 <img className='w-[24%] gap-x-[30px]' src={sliderOne} alt="" />
                 <img className='w-[24%] gap-x-[30px]' src={sliderTwo} alt="" />

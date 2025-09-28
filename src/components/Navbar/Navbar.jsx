@@ -2,18 +2,20 @@ import React from 'react'
 import Container from '../Layouts/Container'
 import logo from '../../assets/logo.png'
 import Flex from '../Layouts/Flex'
-
+import { useState } from 'react' ;
 
 
 const Navbar = () => {
+    const [open, SetOpen] = useState(false);
     return (
-        <div className='bg-[#F40404] py-[30px]'>
+        <div className='bg-[#F40404] py-[30px] overflow-hidden'>
             <Container>
 
                 <div className='sm:block md:flex justify-between items-center'>
 
-                    <div>
+                    <div className='flex justify-between'>
                         <img src={logo} alt="#logo" className='sm: w-[150px] mb-[20px]'/>
+                        <button className='sm: block md:hidden' onClick={ ()=> SetOpen(!open) }>Button</button>
                     </div>
 
                     <div className='flex items-center'>
